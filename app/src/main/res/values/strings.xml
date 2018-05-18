@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">tutorial</string>
+    <string name="genericMethodJava">Generic Method Java</string>
+    <string name="title">Enhance Level</string>
 </resources>
