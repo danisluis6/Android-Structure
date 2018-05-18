@@ -3,17 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/ic_genericMethodJava"
-        android:icon="@drawable/ic_search"
+        android:id="@+id/ic_a"
         android:orderInCategory="100"
-        android:title="Generic Method Java"
+        android:title="@string/CONTENT_FRAGMENT_A"
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/ic_genericInterfaceAndroid"
-        android:icon="@drawable/ic_more_vert"
+        android:id="@+id/ic_b"
         android:orderInCategory="200"
-        android:title="Generic Interface Android"
+        android:title="@string/CONTENT_FRAGMENT_B"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ic_c"
+        android:orderInCategory="200"
+        android:title="@string/CONTENT_FRAGMENT_C"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ic_d"
+        android:orderInCategory="200"
+        android:title="@string/CONTENT_FRAGMENT_D"
         app:showAsAction="always" />
 
 </menu>

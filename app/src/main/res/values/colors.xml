@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FDFFF7</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="titleTextColor">#FF0000</color>
+    <color name="description">#FFFFFF</color>
 </resources>

@@ -2,4 +2,16 @@
     <string name="app_name">tutorial</string>
     <string name="genericMethodJava">Generic Method Java</string>
     <string name="title">Enhance Level</string>
+
+
+    <string name="TAG_FRAGMENT_A">A</string>
+    <string name="TAG_FRAGMENT_B">B</string>
+    <string name="TAG_FRAGMENT_C">C</string>
+    <string name="TAG_FRAGMENT_D">D</string>
+
+
+    <string name="CONTENT_FRAGMENT_A">A</string>
+    <string name="CONTENT_FRAGMENT_B">B</string>
+    <string name="CONTENT_FRAGMENT_C">C</string>
+    <string name="CONTENT_FRAGMENT_D">D</string>
 </resources>
