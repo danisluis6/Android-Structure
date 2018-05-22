@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentTransaction;
 
 import java.util.Stack;
 
-import tutorial.lorence.tutorial.MainActivity;
+import tutorial.lorence.tutorial.View1;
 import tutorial.lorence.tutorial.R;
 
 public class FragmentUtils {
@@ -25,7 +25,7 @@ public class FragmentUtils {
     public void peekFragment() {
         try {
             FragmentStack fragment = mCurrentFrgStack.peek();
-            FragmentManager manager = ((MainActivity) mContext).getSupportFragmentManager();
+            FragmentManager manager = ((View1) mContext).getSupportFragmentManager();
             FragmentTransaction ft = manager.beginTransaction();
             ft.setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right);
             ft.replace(mContainerId, fragment.getFragment(), fragment.getTag());
@@ -41,7 +41,7 @@ public class FragmentUtils {
 
     public void pushFragment(PushFrgType type, Fragment fragment, String tag, boolean shouldAdd) {
         try {
-            FragmentManager manager = ((MainActivity) mContext).getSupportFragmentManager();
+            FragmentManager manager = ((View1) mContext).getSupportFragmentManager();
             FragmentTransaction ft = manager.beginTransaction();
             ft.setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left);
             if (type == PushFrgType.REPLACE) {
