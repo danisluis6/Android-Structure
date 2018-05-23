@@ -35,7 +35,7 @@ public class View1 extends AppCompatActivity implements MainView {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_chevron);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_dehaze);
 
         initAttributes();
         initViews();

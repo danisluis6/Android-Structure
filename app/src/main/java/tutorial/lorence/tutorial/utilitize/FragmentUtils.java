@@ -27,7 +27,7 @@ public class FragmentUtils {
             FragmentStack fragment = mCurrentFrgStack.peek();
             FragmentManager manager = ((View1) mContext).getSupportFragmentManager();
             FragmentTransaction ft = manager.beginTransaction();
-            ft.setCustomAnimations(R.anim.slide_in_left, R.anim.slide_out_right);
+            ft.setCustomAnimations(R.anim.fadein, R.anim.fadeout);
             ft.replace(mContainerId, fragment.getFragment(), fragment.getTag());
             ft.commitAllowingStateLoss();
         } catch (IllegalStateException | ArrayIndexOutOfBoundsException e) {
@@ -43,7 +43,7 @@ public class FragmentUtils {
         try {
             FragmentManager manager = ((View1) mContext).getSupportFragmentManager();
             FragmentTransaction ft = manager.beginTransaction();
-            ft.setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left);
+            ft.setCustomAnimations(R.anim.fadein, R.anim.fadeout);
             if (type == PushFrgType.REPLACE) {
                 ft.replace(mContainerId, fragment, tag);
                 ft.addToBackStack(tag);
