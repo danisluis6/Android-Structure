@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B71C1C"
+    android:background="@color/description"
     tools:context="tutorial.lorence.tutorial.View1">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/CONTENT_FRAGMENT_A"
         android:id="@+id/genericMethodJava"
-        android:textColor="@color/description"
+        android:textColor="#B71C1C"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
