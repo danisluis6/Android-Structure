@@ -53,7 +53,7 @@ public class View1 extends AppCompatActivity implements MainView {
     }
 
     public void pushFragment(Fragment fragment, String tag) {
-        mFragmentUtils.pushFragment(FragmentUtils.PushFrgType.REPLACE, fragment, tag, false);
+        mFragmentUtils.pushFragment(FragmentUtils.PushFrgType.REPLACE, fragment, tag, true);
         defineToolbar(tag);
     }
 
