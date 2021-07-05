@@ -17,7 +17,7 @@ import tutorial.lorence.tutorial.fragment.FragmentD;
 import tutorial.lorence.tutorial.utilitize.FragmentStack;
 import tutorial.lorence.tutorial.utilitize.FragmentUtils;
 
-public class MainActivity extends AppCompatActivity implements MainView {
+public class View1 extends AppCompatActivity implements MainView {
 
     private Stack<FragmentStack> mCurrentFrgStack;
     private FragmentUtils mFragmentUtils;
@@ -30,13 +30,12 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.view_1);
         this.getSupportActionBar().setTitle(this.getString(R.string.title));
-
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_chevron);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_dehaze);
 
         initAttributes();
         initViews();
